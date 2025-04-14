@@ -1,9 +1,8 @@
 name: CI-Test
 
 on:
-  pull_request:
-    branches:
-      - part3-김창우
+  push:
+    branches: [ '**' ]
 
 jobs:
   test:
